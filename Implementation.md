@@ -29,21 +29,22 @@
 
 - **User Data contains:** \"Welcome to Yatharth Server!\"
 
-  <p align="center">
-  <img src="images/Screenshot 2025-07-20 161208.png" width="600"/>
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161208.png" width="1000"/>
 </p>
 
- <p align="center">
-  <img src="images/Screenshot 2025-07-20 161220.png" width="600"/>
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161220.png" width="1000"/>
 </p>
 
-  <p align="center">
-  <img src="images/Screenshot 2025-07-20 160844.png" width="600"/>
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 160844.png" width="1000"/>
 </p>
+
 
 ## USER DATA:
 
-userdata.sh
+./userdata.sh
 
 <p align="center">
   <img src="images/Screenshot 2025-07-20 161233.png" width="1000"/>

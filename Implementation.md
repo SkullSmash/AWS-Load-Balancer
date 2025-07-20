@@ -44,6 +44,11 @@
 
 ## USER DATA:
 
+## 🧾 EC2 User Data Script
+
+Use the following script in the **User Data** section when launching each EC2 instance:
+
+```bash
 #!/bin/bash
 apt-get update
 apt-get install nginx -y
@@ -90,6 +95,7 @@ cat <<EOF > /var/www/html/index.html
 </body>
 </html>
 EOF
+```
 
 <p align="center">
   <img src="images/Screenshot 2025-07-20 161233.png" width="1000"/>

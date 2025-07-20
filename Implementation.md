@@ -1,4 +1,4 @@
-# AWS Project Implementation -- Yatharth Barrendia {#aws-project-implementation-yatharth-barrendia}
+# AWS Project Implementation -- Yatharth Barrendia
 
 ## Step 1: Launch EC2 Instances Using a Bash Script
 

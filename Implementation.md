@@ -29,12 +29,17 @@
 
 - **User Data contains:** \"Welcome to Yatharth Server!\"
 
-  ![](media/image1.png){width="6.15in" height="3.783333333333333in"}
+  <p align="center">
+  <img src="images/Screenshot 2025-07-20 161208.png" width="600"/>
+</p>
 
-  ![](media/image2.png){width="6.241666666666666in"
-  height="3.6083333333333334in"}
+ <p align="center">
+  <img src="images/Screenshot 2025-07-20 161220.png" width="600"/>
+</p>
 
-  ![](media/image3.png){width="6.225in" height="3.6416666666666666in"}
+  <p align="center">
+  <img src="images/Screenshot 2025-07-20 160844.png" width="600"/>
+</p>
 
 ## USER DATA:
 
@@ -129,12 +134,16 @@ font-weight: bold;
 
 EOF
 
-![](media/image4.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161233.png" width="600"/>
+</p>
 
 Similarly create three servers: server-1, server-2 and server-3
 respectively
 
-![](media/image5.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161654.png" width="600"/>
+</p>
 
 ## Step 2: Create a Target Group and Register EC2 Instances
 
@@ -146,11 +155,17 @@ respectively
 
 - Register EC2 instances: \`server-1\`, \`server-2\`, \`server-3\`
 
-  ![](media/image6.png){width="6.0in" height="3.375in"}
+ <p align="center">
+  <img src="images/Screenshot 2025-07-20 161845.png" width="600"/>
+</p>
 
-  ![](media/image7.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161859.png" width="600"/>
+</p>
 
-  ![](media/image8.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 161957.png" width="600"/>
+</p>
 
   Verify Registration
 
@@ -167,7 +182,9 @@ respectively
 - You should see the EC2 instances with a **healthy** status after a few
   seconds (if health checks pass)
 
-  ![](media/image9.png){width="6.0in" height="3.375in"}
+ <p align="center">
+  <img src="images/Screenshot 2025-07-20 162012.png" width="600"/>
+</p>
 
 ## Step 3: Create Application Load Balancer
 
@@ -181,13 +198,21 @@ respectively
 
 - Associated Target Group: \`Project-TargetGroup\`
 
-  ![](media/image10.png){width="6.0in" height="3.375in"}
+ <p align="center">
+  <img src="images/Screenshot 2025-07-20 162119.png" width="600"/>
+</p>
 
-  ![](media/image11.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 162222.png" width="600"/>
+</p>
 
-  ![](media/image12.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 162425.png" width="600"/>
+</p>
 
-  ![](media/image13.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 162724.png" width="600"/>
+</p>
 
 ## Step 4: Configure Security Groups
 
@@ -195,9 +220,13 @@ respectively
 
 - server-1 SG: Allow HTTP from \`ALB-Security\`
 
-  ![](media/image14.png){width="6.0in"
-  height="3.375in"}![](media/image15.png){width="6.0in"
-  height="3.375in"}
+  <p align="center">
+  <img src="images/Screenshot 2025-07-20 165307.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/Screenshot 2025-07-20 165323.png" width="600"/>
+</p>
 
 ## Step 5: Final Verification
 
@@ -205,10 +234,16 @@ respectively
 
 - Paste in browser: Should show "Welcome to Yatharth Server!" page
 
-  ![](media/image16.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/102.png" width="600"/>
+</p>
 
-  ![](media/image17.png){width="6.0in" height="3.375in"}
+<p align="center">
+  <img src="images/233.png" width="600"/>
+</p>
 
-  ![](media/image18.png){width="6.0in" height="3.375in"}
-
+<p align="center">
+  <img src="images/148.png" width="600"/>
+</p>
+ 
   Hurray!! We are getting response from all three servers.

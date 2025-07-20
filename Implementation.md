@@ -44,8 +44,6 @@
 
 ## USER DATA:
 
-## 🧾 EC2 User Data Script
-
 Use the following script in the **User Data** section when launching each EC2 instance:
 
 ```bash
